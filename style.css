@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./1200px-Pokémon_GO_logo.svg_.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 0 20px;
+    color: white;
+}
+title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+ul{
+    display: flex;
+    gap: 20px;
+
+}
+li{
+    list-style: none;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 20pc);
+    gap: 20px;
+}
+
+.borderRa{
+    border-radius: 10px;
+}
+
+.imagen{
+    width: 13pc;
+    position: absolute;
+    top: 40px;
+    left: 16%;
+}
+
+.card{
+    width: 19pc;
+    background-color: #232323;
+    color: white;
+}
+
+.number{
+    position: relative;
+    height: 14pc;
+    width: 100%;
+    background: white;
+    color: grey;
+    font-family: fantasy;
+    opacity: 0.09;
+    text-align: center;
+    font-size: 6pc;   
+}
+
+.containerInfo{
+    padding: 0 1pc;
+    font-family: fantasy;
+    font-size: 1pc;
+}
+
+.containerInfo h5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1pc;
+}
+.border{
+    padding: 3px;
+    margin: 0%;
+    border-radius: 6px;
+}
+.slydercontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.slyder{ 
+    display: flex;
+    padding: 40px;
+    gap: 20px;
+    background-color: rgba(14, 4, 104, 0.514);
+    overflow-x: scroll;
+
+}
+.card1{
+    display: flex;
+
+}
+
+.card:hover{
+background-color: blue;
+color: chartreuse;
+}
+.card:hover .number{
+    opacity: 1;
+font-size: 8px;
+}
+.card:hover .imagen{
+    width: 18pc;
+    top: -9px;
+    left: 8%
+}
+*{
+    transition: all ease 0.9s;
+}
+
+
+
